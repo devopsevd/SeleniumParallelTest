@@ -30,6 +30,8 @@ namespace SeleniumParallelTest
     [Parallelizable]
     public class ChromeTesting : Hooks
     {
+
+
         public ChromeTesting() : base(BrowserType.Chrome)
         {
         }

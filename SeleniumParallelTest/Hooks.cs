@@ -20,10 +20,16 @@ namespace SeleniumParallelTest
     {
         private BrowserType _browserType;
 
-        public Hooks(BrowserType browser)
+        public Hooks(BrowserType browserType)
         {
-            _browserType = browser;
+            _browserType = browserType;
         }
+
+
+        //public Hooks(BrowserType browser)
+        //{
+        //    _browserType = browser;
+        //}
 
         [SetUp]
         public void InitializeTest()
