@@ -15,7 +15,7 @@ namespace SeleniumParallelTest
     }
 
 
-    [TestFixture]
+    //[TestFixture]
     public class Hooks : Base
     {
         private BrowserType _browserType;
