@@ -16,8 +16,8 @@ namespace SeleniumParallelTest
         [Test]
         public void FirefoxGoogleTest()
         {
-            Driver.Navigate().GoToUrl("http://www.google.com");
-            Driver.FindElement(By.Name("q")).SendKeys("Selenium");
+            Driver.Navigate().GoToUrl("http://cmt-devops-app-lb-785185585.us-east-1.elb.amazonaws.com");
+            //Driver.FindElement(By.Name("q")).SendKeys("Selenium");
             System.Threading.Thread.Sleep(10000);
  
             //Driver.FindElement(By.Name("btnK")).Click();
@@ -39,8 +39,8 @@ namespace SeleniumParallelTest
         [Test]
         public void ChromeGoogleTest()
         {
-            Driver.Navigate().GoToUrl("http://www.google.com");
-            Driver.FindElement(By.Name("q")).SendKeys("ExecuteAutomation");
+            Driver.Navigate().GoToUrl("http://cmt-devops-app-lb-785185585.us-east-1.elb.amazonaws.com");
+            //Driver.FindElement(By.Name("q")).SendKeys("ExecuteAutomation");
             System.Threading.Thread.Sleep(20000);
             //Driver.FindElement(By.Name("btnK")).Click();
             //Assert.That(Driver.PageSource.Contains("ExecuteAutomation"), Is.EqualTo(true),
